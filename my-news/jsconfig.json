@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            "components/*": ["components/*"],
+            "api/*": ["api/*"],
+            "Image/*": ["Image/*"],
+            "pages/*": ["pages/*"],
+            "helpers/*": ["helpers/*"],
+            "NewsBanner/*": ["NewsBanner/*"],
+            "NewsItem/*": ["NewsItem/*"],
+            "NewsList/*": ["NewsList/*"],
+        }
+    }
+}
