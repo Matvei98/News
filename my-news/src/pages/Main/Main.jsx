@@ -22,7 +22,7 @@ export const Main = () => {
 
   return (
     <main className={styles.main}>
-     {news.length > 0 ? <NewsBanner item={news[0]}/> :null}
+    {news.length > 0 ? <NewsBanner item={news[0]}/> : null}
       <NewsList news={news} />
     </main>
   );

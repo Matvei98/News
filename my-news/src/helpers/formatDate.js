@@ -1,4 +1,4 @@
-export const formDate = (date) => {
+export const formatDate = (date) => {
 const options = {
  weekday:'long',
  year:'numeric',
